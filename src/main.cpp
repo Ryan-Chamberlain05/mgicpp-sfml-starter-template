@@ -60,6 +60,5 @@ int main()
         game.update(dt);
         game.render();
     }
-
     return 0;
 }
