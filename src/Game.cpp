@@ -30,7 +30,7 @@ bool Game::init()
   accept_button.setTexture(accept_button_tex);
   reject_button.setTexture(reject_button_tex);
 
-  accept_stamp_tex.loadFromFile(".//Data/Images/accept.png");
+  accept_stamp_tex.loadFromFile("../Data/Images/accept.png");
   reject_stamp_tex.loadFromFile("../Data/Images/reject.png");
   accept_stamp.setTexture(accept_stamp_tex);
   reject_stamp.setTexture(reject_stamp_tex);
